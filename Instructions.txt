@@ -1,0 +1,13 @@
+(1) Before, running the program please ensure that the sample rate(in Hz) of the FLAC file and your system should match for correct audio output.
+
+(2) In the example flac (example.flac) file, its sample rate is 48000 Hz. So please ensure that the sample rate of your system in shared mode is 48000 Hz.
+
+    This is because our program does not have a resampler and implementing it is beyond the scope of this project.
+
+(3) Finally, to run the program, open command prompt in the extracted folder and type 'APS_Lab_Project_FLAC_Decoder.exe' and press enter.
+
+#To play another flac file, rename it 'example', and place it in the same folder as of the application but ensure step 1 is followed.
+
+#To change sample rate of your system follow the steps given in the link below:
+ 
+https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings-winpc/how-to-change-sound-control-panel-settings-in/5a70718b-7ecf-4547-a64a-22efda8da0c2
